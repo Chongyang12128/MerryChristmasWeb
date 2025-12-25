@@ -15,8 +15,8 @@ function App() {
   const [image, setImage] = useState(null);
   const [message, setMessage] = useState('');
   const [config, setConfig] = useState({
-    gemini: 'AIzaSyD2O_4SblA6GzLeIbVivQ8S1Pnaxv1KADo',
-    resend: 're_TxE6ygDr_9NtMqvYhpBhhfxj4HMSkWdLD'
+    gemini: '',
+    resend: ''
   });
 
   const [isProcessing, setIsProcessing] = useState(false);
