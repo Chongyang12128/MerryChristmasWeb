@@ -14,7 +14,7 @@ export async function generateFestiveMessage(apiKey, imageFile, userPrompt = "")
 
     // Initialize the API
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }); // Or "gemini-1.5-flash" if 2.5 is not yet aliased
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Convert file to Base64
     const base64Image = await fileToGenerativePart(imageFile);
